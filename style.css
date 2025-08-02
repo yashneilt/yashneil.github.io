@@ -1,4 +1,4 @@
-/* Reset */
+/* Basic Reset */
 * {
   margin: 0;
   padding: 0;
@@ -6,98 +6,66 @@
 }
 
 body {
-  font-family: 'IBM Plex Mono', monospace;
-  background-color: #ffffff;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #f9f9f9;
   color: #111;
-  line-height: 1.7;
-  padding: 30px;
+  line-height: 1.6;
+  padding: 20px;
   max-width: 900px;
   margin: auto;
 }
 
 header {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
-header h1 {
-  font-size: 3rem;
-  font-weight: 600;
-  margin-bottom: 10px;
+h1 {
+  font-size: 2.8rem;
   letter-spacing: -1px;
 }
 
-header p {
-  font-size: 1.2rem;
-  color: #555;
-  margin-bottom: 15px;
+p {
+  font-size: 1.1rem;
+  color: #444;
 }
 
-nav a {
-  text-decoration: none;
-  color: #111;
-  margin: 0 12px;
-  font-weight: 500;
-  font-size: 0.95rem;
-  position: relative;
-}
-
-nav a::after {
-  content: '';
-  position: absolute;
-  width: 0%;
-  height: 1px;
-  left: 0;
-  bottom: -3px;
-  background-color: #111;
-  transition: width 0.3s ease;
-}
-
-nav a:hover::after {
-  width: 100%;
-}
-
-section {
-  margin-bottom: 50px;
-  border-top: 1px solid #e0e0e0;
-  padding-top: 20px;
-}
-
-section h2 {
-  font-size: 1.5rem;
-  margin-bottom: 12px;
-  letter-spacing: -0.5px;
+h2 {
+  margin: 20px 0 10px;
+  font-size: 1.6rem;
 }
 
 ul {
   list-style: none;
+  padding-left: 0;
 }
 
-ul li {
-  margin-bottom: 15px;
+li {
+  background: #fff;
+  margin: 8px 0;
+  padding: 12px;
+  border-left: 4px solid #000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
 }
 
-a {
-  color: #0077ff;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+li:hover {
+  transform: translateX(5px);
 }
 
 footer {
   text-align: center;
-  color: #999;
-  margin-top: 80px;
+  margin-top: 40px;
   font-size: 0.9rem;
+  color: #777;
 }
 
-/* Subtle hover effect for project links */
-ul li a {
-  transition: color 0.3s ease;
+a {
+  color: #111;
+  text-decoration: none;
+  border-bottom: 1px solid #111;
 }
 
-ul li a:hover {
-  color: #0055bb;
+a:hover {
+  opacity: 0.7;
 }
