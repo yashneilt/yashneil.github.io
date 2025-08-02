@@ -1,84 +1,126 @@
-/* Brutalist Portfolio Style - Thin Helvetica Neue */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>yashneil tripathi | portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Consolas', monospace;
+      background-color: #f4f4f4;
+      color: #111;
+      line-height: 1.6;
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    h1 {
+      font-size: 2.8rem;
+      letter-spacing: -1px;
+      font-weight: 600;
+    }
+    p {
+      font-size: 1.1rem;
+      color: #333;
+    }
+    h2 {
+      margin: 20px 0 10px;
+      font-size: 1.6rem;
+      font-weight: 600;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li {
+      background: #fff;
+      margin: 8px 0;
+      padding: 12px;
+      border-left: 4px solid #000;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      transition: transform 0.2s;
+    }
+    li:hover {
+      transform: translateX(5px);
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+    a {
+      color: #111;
+      text-decoration: none;
+      border-bottom: 1px solid #111;
+    }
+    a:hover {
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+  <!-- HEADER -->
+  <header>
+    <h1>yashneil tripathi</h1>
+    <p>high schooler exploring aerospace, ai, and everything in between.</p>
+  </header>
 
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  background-color: #ffffff;
-  color: #000000;
-  line-height: 1.6;
-  padding: 20px;
-  max-width: 1000px;
-  margin: auto;
-  text-transform: lowercase;
-}
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>about me</h2>
+    <p>
+      curious mind fascinated by engineering, space, and how tech shapes the future.<br>
+      currently studying at <strong>amity international school, abu dhabi</strong>.<br>
+      spend free time building algorithms, tinkering with robotics,<br>
+      and working on aerospace concepts that could change the skies.
+    </p>
+  </section>
 
-header {
-  text-align: left;
-  border-bottom: 3px solid #000;
-  padding-bottom: 10px;
-  margin-bottom: 30px;
-}
+  <!-- HIGHLIGHTS -->
+  <section id="highlights">
+    <h2>highlights</h2>
+    <ul>
+      <li> bronze medalist – top 70 nationwide in kenken middle east challenge</li>
+      <li> internship at penspen – real-world engineering experience</li>
+      <li> research papers on next-gen aerospace and propfan engine efficiency</li>
+      <li> ai projects – <a href="https://github.com/yashneilt/FaceTracker" target="_blank">face-tracking code</a> for identifying moving targets</li>
+      <li> cubesat projects – early work on mini-satellite concepts</li>
+      <li> python developer – <a href="https://github.com/yashneilt/TravellingTrader" target="_blank">travelling trader solution</a> using greedy neighbor algorithms</li>
+      <li> statistics projects – data analysis and predictive modeling in sports analytics</li>
+      <li> robotics enthusiast – building and coding bots since 5th grade</li>
+      <li> cad design – skilled in fusion 360 for aerospace prototypes</li>
+      <li> olympiad high scorer – top performer in school-level national contests</li>
+      <li> certified python programmer – official qualification in python</li>
+      <li> problem solver – creative and fast with solutions, especially algorithmic challenges</li>
+    </ul>
+  </section>
 
-h1 {
-  font-size: 3rem;
-  font-weight: 200;
-}
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>projects</h2>
+    <ul>
+      <li><a href="https://github.com/yashneilt/TravellingTrader" target="_blank">travelling trader algorithm</a> – solved using greedy neighbor approach, no apis used</li>
+      <li><a href="https://github.com/yashneilt/FaceTracker" target="_blank">face tracking program</a> – identifies and locks onto moving individuals using ai</li>
+      <li>research on aircraft efficiency – papers on propfan engines and aerodynamic optimization</li>
+      <li>data science in sports – Data analysis and predictive modeling in sports analytics</li>
+      <li>cubesat concept work – early-stage planning for a student-made satellite</li>
+    </ul>
+  </section>
 
-p {
-  font-size: 1.1rem;
-  margin-top: 5px;
-  color: #000;
-}
+  <!-- CONTACT -->
+  <footer>
+    <p> yashneil1201@gmail.com</p>
+    <p> +971 55 647 5632</p>
+    <p><a href="https://www.linkedin.com/in/yashneil-tripathi-617108285/" target="_blank">linkedin profile</a></p>
+    <p>© 2025 yashneil tripathi</p>
+  </footer>
 
-h2 {
-  margin: 20px 0 10px;
-  font-size: 1.4rem;
-  border-bottom: 2px solid #000;
-  padding-bottom: 4px;
-}
-
-ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-li {
-  background: none;
-  margin: 6px 0;
-  padding: 8px 0;
-  border-top: 1px solid #000;
-  transition: background 0.2s;
-}
-
-li:hover {
-  background: #f2f2f2;
-}
-
-a {
-  color: #000;
-  text-decoration: underline;
-}
-
-a:hover {
-  opacity: 0.6;
-}
-
-footer {
-  margin-top: 50px;
-  border-top: 3px solid #000;
-  padding-top: 10px;
-  font-size: 0.9rem;
-  color: #000;
-  text-align: left;
-}
-
-footer a {
-  text-decoration: underline;
-  color: #000;
-}
+</body>
+</html>
